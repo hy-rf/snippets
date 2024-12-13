@@ -1,0 +1,45 @@
+{
+	"Create Next Client Component": {
+		"prefix": "nc", // The trigger keyword
+		"body": [
+			"\"use client\";",
+			"export default function ${1}() {",
+			"  return (",
+			"    <>",
+			"      ${2}",
+			"    </>",
+			"  )",
+			"}"
+		],
+		"description": "Create a React functional component with TypeScript"
+	},
+	"Create Next Server Component": {
+		"prefix": "ns", // The trigger keyword
+		"body": [
+			"export default async function Page() {",
+			"  return (",
+			"    <>",
+			"      ${1}",
+			"    </>",
+			"  )",
+			"}"
+		],
+		"description": "Create a React functional component with TypeScript"
+	},
+	"Create State": {
+  "prefix": "state", // The trigger keyword
+  "body": [
+    	"const [${1:state}, set${1/(^.*)/${1:/capitalize}/}] = useState(${2});"
+  	],
+  "description": "Create a React state"
+	},
+	"Create Effect": {
+  "prefix": "effect", // The trigger keyword
+  "body": [
+    	"useEffect(()=>{",
+			"  ${1}",
+			"}, [${2}]);"
+  	],
+  "description": "Create a React effect"
+	}
+}

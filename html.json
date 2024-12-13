@@ -1,0 +1,11 @@
+{
+  "PHP": {
+    "prefix": "php",
+    "body": [
+      "<?php",
+      "${1:code}",
+      "?>"
+    ],
+    "description": "Create a Vue 3 component using the setup function"
+  }
+}

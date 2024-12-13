@@ -1,0 +1,16 @@
+{
+	"Vue 3 Setup Component": {
+    "prefix": "vue3-setup",
+    "body": [
+      "<script setup>",
+      "</script>",
+      "",
+      "<template>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "</style>"
+    ],
+    "description": "Create a Vue 3 component using the setup function"
+  }
+}

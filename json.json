@@ -1,0 +1,15 @@
+{
+	"Create New Snippet": {
+		"prefix": "new",
+		"body": [
+			"  \"$1: {",
+			"    \"prefix\": \"$2\",",
+			"    \"body\": [",
+			"      \"$3\"",
+			"    ],",
+			"    \"description\": \"$4\"",
+			"  }",
+		],
+		"description": "Quickly create a new VS Code snippet"
+	}
+}
